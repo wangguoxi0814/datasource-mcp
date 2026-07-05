@@ -1,0 +1,10 @@
+[project]
+name = "datasource-mcp"
+version = "0.1.0"
+description = "datasource mcp server"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=3.4.2",
+    "mysql-connector-python>=9.7.0",
+]
