@@ -107,5 +107,5 @@ def db_exe(sql: str, max_rows: int = DEFAULT_MAX_ROWS) -> str:
         return _format_error(f"执行失败: {e}")
 
 
-if __name__ == "__main__":
+def main() -> None:
     mcp.run(transport="stdio")
