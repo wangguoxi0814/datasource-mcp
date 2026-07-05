@@ -32,9 +32,9 @@ dependencies = [
 datasource-mcp = "datasource_mcp.server:main"
 
 [project.urls]
-Homepage = "https://github.com/yourname/datasource-mcp"
-Repository = "https://github.com/yourname/datasource-mcp"
-Issues = "https://github.com/yourname/datasource-mcp/issues"
+Homepage = "https://github.com/wangguoxi0814/datasource-mcp"
+Repository = "https://github.com/wangguoxi0814/datasource-mcp"
+Issues = "https://github.com/wangguoxi0814/datasource-mcp/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/datasource_mcp"]
